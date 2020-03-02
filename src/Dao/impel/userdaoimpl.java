@@ -19,4 +19,10 @@ public class userdaoimpl implements Userdao {
 		}
 	}
 
+	@Override
+	public void update(User user) {
+		// TODO Auto-generated method stub
+		System.out.println("执行修改用户信息的操作");
+	}
+
 }
